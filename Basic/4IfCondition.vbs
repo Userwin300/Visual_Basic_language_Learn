@@ -2,10 +2,9 @@
 dim age 
 age = 18
 
-if age>= 18 then 
+if age>= 18 then 'syntax:   if condition then statment 
     WScript.echo "you are an adult."
-else
+else             ' else
     wscript.echo "You are a minor."
-end if
-'In VBScript, we don't use   if(condition) {statement}    or    if condition: statement.
-'We use    if condition then statment
+end if           ' end if   same } or end of statment if
+
