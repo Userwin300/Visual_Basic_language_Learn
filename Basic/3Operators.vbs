@@ -7,6 +7,9 @@ sum = 5 + 1  ' Reassigns sum to 6, replacing the previous values
 WScript.Echo sum 'Output: 6 
 
 sm = sum & 13 ' & is use connecting between strings and integer
-WScript.Echo sm
+              ' compare by use javascript   
+              ' console.log("hello"+10);   // output : hello10  
+              ' So, & is same + in javascript 
+WScript.Echo sm 'output : 613
 'or use & like this 
 WScript.Echo sum &"  " & sm
